@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(60, 185, 148);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  color: blueviolet;
+}
+
+.card {
+  background-color: aliceblue;
+  width: 500px;
+  height: auto;
+  margin: 50px auto; /*centralizando a div*/
+  padding: 30px;
+  border: 2px solid black;
+}
+
+.card h1 {
+  color: black;
+}
+
+h2 {
+  color: chocolate;
+}
+
+#texto {
+  font-size: 10px;
+}
+
+#texto2 {
+  color: crimson;
+}
