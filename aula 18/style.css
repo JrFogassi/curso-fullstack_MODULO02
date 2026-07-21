@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: goldenrod;
+  height: 400px;
+  /*---esse conjunto centraliza a div---*/
+  align-items: center;
+  justify-content: center;
+  /*---*/
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.caixa {
+  background-color: aquamarine;
+  padding: 30px;
+  margin: 10px;
+}
