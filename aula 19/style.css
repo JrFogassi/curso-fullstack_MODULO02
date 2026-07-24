@@ -63,3 +63,27 @@ body {
   color: #f1f1f1;
   cursor: pointer;
 }
+
+.rodape {
+  background-color: #222;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.rodape p {
+  font-size: 10px;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 15px;
+}
+
+.redes-sociais img {
+  width: 20px;
+  filter: invert(99%) sepia(3%) saturate(1569%) hue-rotate(209deg)
+    brightness(118%);
+}
