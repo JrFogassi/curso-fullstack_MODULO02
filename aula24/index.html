@@ -11,6 +11,13 @@
     <p>Aqui que vai mudar</p>
     <p class="msg">Usando outro seletor</p>
 
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" id="nome" name="nome" />
+    <button onclick="mostrarNome()">Mostrar</button>
+    <p id="resultado"></p>
+
+    <p id="texto">Vamos usar querySelector</p>
+
     <script>
       let paragrafo = document.getElementsByTagName("p")[1];
 
@@ -21,8 +28,16 @@
 
       paragrafo2.innerHTML =
         "Mudamos o texto usando o seletor <strong>class</strong>";
+
+      function mostrarNome() {
+        //let nome = document.getElementsByName("nome")[0].value;
+        const campo = document.querySelector("[name='nome']");
+        let nome = campo.value;
+        document.getElementById("resultado").innerText = `Olá, ${nome}`;
+      }
+
+      let texto = document.querySelector("#texto");
+      texto.innerText = "Usamos o querySelector pelo id";
     </script>
   </body>
 </html>
-
-<!-- aula 24 1:31:29-->
